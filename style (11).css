@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1535px;
+  margin: 0 auto;
+}
+nav .container1 {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.container1 a {
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+}
+.box1 {
+  position: relative;
+  left: 60px;
+  top: -20px;
+}
+.box2 {
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  top: 20px;
+}
+.box3 {
+  position: relative;
+  left: 120px;
+}
+.box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11 {
+  font-size: 14px;
+  margin-top: 25px;
+}
+.box4 {
+  position: relative;
+  left: 165px;
+}
+.box5 {
+  position: relative;
+  left: 195px;
+}
+.box6 {
+  position: relative;
+  left: 235px;
+}
+.box7 {
+  position: relative;
+  left: 280px;
+}
+.box8 {
+  position: relative;
+  left: 325px;
+}
+.box9 {
+  position: relative;
+  left: 370px;
+}
+.box10 {
+  position: relative;
+  left: 415px;
+}
+.box11 {
+  position: relative;
+  left: 450px;
+}
+.sel1 {
+  border: none;
+  width: 55px;
+}
+.sel1:hover {
+  cursor: pointer;
+}
+.box3 a:hover,
+.box4 a:hover,
+.box5 a:hover,
+.box6 a:hover,
+.box7 a:hover,
+.box9 a:hover,
+.box10 a:hover,
+.box11 a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+.box3 a,
+.box4 a,
+.box5 a,
+.box6 a,
+.box7 a,
+.box9 a,
+.box10 a,
+.box11 a {
+  transition: 0.3s;
+}
+.box9 a,
+.box10 a {
+  color: red;
+}
+.container1 {
+  font-family: helvetica;
+  text-align: center;
+}
+.box12 h1 {
+  margin-top: 10px;
+}
+.box12 p {
+  margin-top: 20px;
+  line-height: 20px;
+}
+.box12 button {
+  box-shadow: 0px 0px 20px 5px coral;
+  background: linear-gradient(to bottom, darkorange, coral, tomato, orangered, red);
+  color: white;
+  padding: 15px 30px 15px 30px;
+  transition: 0.5s;
+  border-radius: 15px;
+  font-size: 17px;
+  border: none;
+  margin-top: 40px;
+}
+.box12 button a {
+  color: white;
+}
+.box12 button:hover {
+  opacity: 0.7;
+  padding: 15px 80px 15px 80px;
+}
+.box12 {
+  margin-top: -20px;
+}

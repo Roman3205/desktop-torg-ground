@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1535px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main .container1 {
+  background-color: rgb(236, 238, 235);
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+.container {
+  height: 100%;
+  height: 100vh;
+}
+.box1 {
+  border: 1px solid black;
+  background-color: white;
+  width: 1200px;
+  height: 510px;
+  margin-left: 170px;
+  margin-top: 50px;
+  font-family: helvetica;
+}
+.box1 h1 {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 27px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+}
+.box2 {
+  display: grid;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.box6 input {
+  margin-left: 30px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  width: 250px;
+}
+.box7 input {
+  margin-left: 67px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  width: 250px;
+  margin-top: -58px;
+}
+.box10 input {
+  margin-left: 58px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  width: 250px;
+  margin-top: 25px;
+}
+.box7 {
+  margin-top: 30px;
+}
+.box4 {
+  display: flex;
+  padding-left: 170px;
+  padding-top: 30px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 100px;
+}
+.box3 {
+  background-color: rgb(242, 241,242);
+  height: 80px;
+  margin-top: 40px;
+}
+.box3 a {
+  text-decoration: none;
+}
+.box4 input,
+.box4 .box5 {
+  margin-right: 10px;
+}
+.container1 a:hover {
+  text-decoration: underline;
+}
+.box4 input {
+  background-color: mediumseagreen;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  transition: 0.5s;
+  position: relative;
+  bottom: 8px;
+  left: 30px;
+}
+.box4 input:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.footercopyright_wrapper {
+  line-height: 20px;
+}
+.box37 {
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
+.text2 {
+  margin-top: -70px;
+}
+.box37 a {
+  color: blue;
+}
+.box9 {
+  display: grid;
+  margin-left: 115px;
+  margin-top: -7px;
+}
+.box9 a {
+  color: blue;
+}
